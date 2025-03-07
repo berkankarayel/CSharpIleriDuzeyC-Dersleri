@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c#301.BusinessLayer", "c#30
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c#301.PresentationLayr", "c#301.PresentationLayr\c#301.PresentationLayr.csproj", "{36491CE5-6AF4-4469-888D-EB8D652CA55F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c#301.EntityFrameworkYapısı", "c#301.EntityFrameworkYapısı\c#301.EntityFrameworkYapısı.csproj", "{4D4F93DA-F926-4AAA-B573-B682D3449D25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{36491CE5-6AF4-4469-888D-EB8D652CA55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36491CE5-6AF4-4469-888D-EB8D652CA55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36491CE5-6AF4-4469-888D-EB8D652CA55F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4F93DA-F926-4AAA-B573-B682D3449D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F93DA-F926-4AAA-B573-B682D3449D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F93DA-F926-4AAA-B573-B682D3449D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F93DA-F926-4AAA-B573-B682D3449D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
