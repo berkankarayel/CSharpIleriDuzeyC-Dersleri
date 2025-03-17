@@ -76,5 +76,12 @@ namespace c_301.EntityFrameworkYapısı
 			db.SaveChanges();
 			MessageBox.Show("Güncelleme İşlemi Başarılı");
 		}
+
+		private void btnGetById_Click(object sender, EventArgs e)
+		{
+			int id = int.Parse(txtId.Text);
+			var values = db.Location.Where(x=>x.LocationId == id).ToList();
+			dataGridView1.DataSource = values;
+		}
 	}
 }

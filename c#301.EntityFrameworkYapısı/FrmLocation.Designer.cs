@@ -62,6 +62,7 @@
 			this.btnGetById.TabIndex = 23;
 			this.btnGetById.Text = "Idye Göre Getir ";
 			this.btnGetById.UseVisualStyleBackColor = false;
+			this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
 			// 
 			// btnAdd
 			// 
